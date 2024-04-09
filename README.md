@@ -59,6 +59,11 @@
 </details>
 
 ## Deskripsi
+> Proyek “Prediksi Depresi dari Data Speech” adalah sebuah inisiatif penelitian yang bertujuan untuk mendeteksi tanda-tanda awal depresi melalui analisis suara. Proyek ini menggunakan teknik Mel Frequency Cepstral Coefficients (MFCC) untuk ekstraksi fitur dari data suara, dan Convolutional Neural Networks (CNN) untuk pembelajaran mesin dan prediksi.
+> 
+> Tujuan utama proyek ini adalah untuk mengembangkan model yang akurat dan efisien yang dapat digunakan dalam aplikasi kesehatan mental untuk mendeteksi dan mencegah depresi pada tahap awal.
+
+## screen
 
 ![animated demo screenshot](https://user-images.githubusercontent.com/781818/37562235-0ae9e9ec-2a3a-11e8-8266-b0e6b716d0d1.gif)
 
