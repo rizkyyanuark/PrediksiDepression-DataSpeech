@@ -3,7 +3,7 @@
 <details>
   <summary>Table of Contents</summary>
 
-  - [Deskripsi](#screenshot)
+  - [Deskripsi](#Deskripsi)
   - [Demo](#demo)
     - [Vanilla, no framework](#vanilla-no-framework)
     - [With Bootstrap](#with-bootstrap)
