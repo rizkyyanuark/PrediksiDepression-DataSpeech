@@ -9,7 +9,7 @@
     - [With Bootstrap](#with-bootstrap)
     - [With Material Design](#with-material-design)
     - [As Single Select](#as-single-select)
-  - [Install](#install)
+  - [test](#🛠-Teknologi-yang-Digunakan)
     - [As NPM package](#as-npm-package)
     - [Using a CDN](#using-a-cdn)
     - [Peer Dependencies](#peer-dependencies)
@@ -69,7 +69,7 @@
 - **Pemodelan Machine Learning**: Membangun dan menguji beberapa model Machine Learning untuk memprediksi depresi.
 - **Evaluasi Model**: Menggunakan metrik evaluasi yang tepat untuk membandingkan kinerja model.
 
-## 🛠️ Teknologi yang Digunakan
+## 🛠 Teknologi yang Digunakan
 
 - Python
 - Scikit-learn
