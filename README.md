@@ -8,7 +8,7 @@
 <details>
   <summary>🏁 Table of Contents</summary>
   <ol>
-    <li><a href="#quickstart">Quickstart</a></li>
+    <li><a href="###📖-Deskripsi">Quickstart</a></li>
     <li><a href="#learning">Learning</a></li>
     <li><a href="#roadmap">Roadmap</a></li>
     <li><a href="#contributing-and-community">Contributing and Community</a></li>
