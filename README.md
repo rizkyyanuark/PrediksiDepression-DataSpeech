@@ -4,7 +4,7 @@
   <summary>Table of Contents</summary>
 
   - [Deskripsi](#Deskripsi)
-  - [Fitur Utama](#🚀-Fitur-Utama)
+  - [Fitur Utama](#Fitur-Utama)
     - [Vanilla, no framework](#vanilla-no-framework)
     - [With Bootstrap](#with-bootstrap)
     - [With Material Design](#with-material-design)
@@ -63,7 +63,7 @@
 > 
 > Tujuan utama proyek ini adalah untuk mengembangkan model yang akurat dan efisien yang dapat digunakan dalam aplikasi kesehatan mental untuk mendeteksi dan mencegah depresi pada tahap awal.
 
-## 🚀 Fitur Utama
+## Fitur Utama
 
 - **Analisis Eksploratif Data (EDA)**: Melakukan analisis mendalam pada data untuk memahami pola dan hubungan antar variabel.
 - **Pemodelan Machine Learning**: Membangun dan menguji beberapa model Machine Learning untuk memprediksi depresi.
