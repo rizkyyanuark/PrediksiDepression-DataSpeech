@@ -4,7 +4,7 @@
   <summary>Table of Contents</summary>
 
   - [Deskripsi](#Deskripsi)
-  - [🚀 Fitur Utama](#🚀-Fitur-Utama)
+  - [Fitur Utama](#🚀-Fitur-Utama)
     - [Vanilla, no framework](#vanilla-no-framework)
     - [With Bootstrap](#with-bootstrap)
     - [With Material Design](#with-material-design)
