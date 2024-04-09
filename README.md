@@ -8,7 +8,7 @@
 <details>
   <summary>🏁 Table of Contents</summary>
   <ol>
-    <li><a href="##Deskripsi">Quickstart</a></li>
+    <li><a href="##Screenshot">Quickstart</a></li>
     <li><a href="#learning">Learning</a></li>
     <li><a href="#roadmap">Roadmap</a></li>
     <li><a href="#contributing-and-community">Contributing and Community</a></li>
@@ -17,7 +17,7 @@
   </ol>
 </details>
 
-## Deskripsi
+## Screenshot
 
 ![animated demo screenshot](https://user-images.githubusercontent.com/781818/37562235-0ae9e9ec-2a3a-11e8-8266-b0e6b716d0d1.gif)
 
