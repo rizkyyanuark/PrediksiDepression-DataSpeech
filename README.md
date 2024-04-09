@@ -1,21 +1,86 @@
-<div align="center">
+# react-dropdown-tree-select
 
-# Prediksi Depresi dari Data Speech
+---
 
-</div>
+[![NPM version][npm-image]][npm-url] [![gzip][gzip-image]][gzip-url] [![npm download][download-image]][npm-url]
 
-<!-- TABLE OF CONTENTS -->
-<details>
-  <summary>🏁 Table of Contents</summary>
-  <ol>
-    <li><a href="##Screenshot">Quickstart</a></li>
-    <li><a href="#learning">Learning</a></li>
-    <li><a href="#roadmap">Roadmap</a></li>
-    <li><a href="#contributing-and-community">Contributing and Community</a></li>
-    <li><a href="#getting-help">Getting Help</a></li>
-    <li><a href="#license">License</a></li>
-  </ol>
-</details>
+[![build status][buildstatus-image]][buildstatus-url] [![Test coverage][coveralls-image]][coveralls-url] [![Commitizen friendly][commitizen]][commitizen-url] [![semantic-release][semantic-release]][semantic-release-url] [![All Contributors][all-contributors-url]](#contributors) ![npm type definitions][types-url]
+
+[npm-image]: http://img.shields.io/npm/v/react-dropdown-tree-select.svg?style=flat-square
+[npm-url]: http://npmjs.org/package/react-dropdown-tree-select
+[buildstatus-image]: https://github.com/dowjones/react-dropdown-tree-select/workflows/CI/badge.svg?branch=main
+[buildstatus-url]: https://github.com/dowjones/react-dropdown-tree-select/actions?query=workflow%3ACI
+[coveralls-image]: https://img.shields.io/coveralls/dowjones/react-dropdown-tree-select.svg?style=flat-square
+[coveralls-url]: https://coveralls.io/r/dowjones/react-dropdown-tree-select?branch=master
+[download-image]: https://img.shields.io/npm/dt/react-dropdown-tree-select.svg?style=flat-square
+[commitizen]: https://img.shields.io/badge/commitizen-friendly-brightgreen.svg?style=flat-square
+[commitizen-url]: http://commitizen.github.io/cz-cli/
+[gzip-image]: http://img.badgesize.io/https://unpkg.com/react-dropdown-tree-select/dist/react-dropdown-tree-select.js?compression=gzip&style=flat-square
+[gzip-url]: https://unpkg.com/react-dropdown-tree-select/dist/react-dropdown-tree-select.js
+[semantic-release]: https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg?style=flat-square
+[semantic-release-url]: https://github.com/semantic-release/semantic-release
+[all-contributors-url]: https://img.shields.io/badge/all_contributors-26-orange.svg?style=flat-square
+[types-url]: https://img.shields.io/npm/types/react-dropdown-tree-select.svg?style=flat-square
+
+## React Dropdown Tree Select
+
+A lightweight and fast control to render a select component that can display hierarchical tree data. In addition, the control shows the selection in pills and allows user to search the options for quick filtering and selection. Also supports displaying partially selected nodes.
+
+## Table of Contents
+
+- [Screenshot](#screenshot)
+- [Demo](#demo)
+  - [Vanilla, no framework](#vanilla-no-framework)
+  - [With Bootstrap](#with-bootstrap)
+  - [With Material Design](#with-material-design)
+  - [As Single Select](#as-single-select)
+- [Install](#install)
+  - [As NPM package](#as-npm-package)
+  - [Using a CDN](#using-a-cdn)
+  - [Peer Dependencies](#peer-dependencies)
+- [Usage](#usage)
+- [Props](#props)
+  - [className](#classname)
+  - [clearSearchOnChange](#clearsearchonchange)
+  - [onChange](#onchange)
+  - [onNodeToggle](#onnodetoggle)
+  - [onAction](#onaction)
+  - [onFocus](#onfocus)
+  - [onBlur](#onblur)
+  - [data](#data)
+  - [texts](#texts)
+  - [keepTreeOnSearch](#keeptreeonsearch)
+  - [keepChildrenOnSearch](#keepchildrenonsearch)
+  - [keepOpenOnSelect](#keepopenonselect)
+  - [mode](#mode)
+    - [multiSelect](#multiselect)
+    - [hierarchical](#hierarchical)
+    - [simpleSelect](#simpleselect)
+    - [radioSelect](#radioselect)
+  - [showPartiallySelected](#showpartiallyselected)
+  - [showDropdown](#showdropdown)
+    - [initial](#initial)
+    - [always](#always)
+  - [form states (disabled|readOnly)](#form-states-disabled-readonly)
+  - [id](#id)
+  - [searchPredicate](#searchpredicate)
+  - [inlineSearchInput](#inlinesearchinput)
+  - [tabIndex](#tabIndex)
+  - [disablePoppingOnBackspace](#disablePoppingOnBackspace)
+- [Styling and Customization](#styling-and-customization)
+  - [Using default styles](#default-styles)
+  - [Customizing with Bootstrap, Material Design styles](#customizing-styles)
+- [Keyboard navigation](#keyboard-navigation)
+- [Performance](#performance)
+  - [Search optimizations](#search-optimizations)
+  - [Search debouncing](#search-debouncing)
+  - [Virtualized rendering](#virtualized-rendering)
+  - [Reducing costly DOM manipulations](#reducing-costly-dom-manipulations)
+- [FAQ](#faq)
+- [Doing more with HOCs](/docs/HOC.md)
+- [Development](#development)
+- [License](#license)
+- [Contributors](#contributors)
 
 ## Screenshot
 
