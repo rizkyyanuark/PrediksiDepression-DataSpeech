@@ -1,7 +1,7 @@
 ## Table of Contents
 
 <details>
-  <summary>Table of Contents</summary>
+  <summary>🏁 Table of Contents</summary>
 
   - [Deskripsi](#Deskripsi)
   - [Fitur Utama](#Fitur-Utama)
@@ -105,10 +105,11 @@ Jika Anda memiliki pertanyaan atau ingin berdiskusi lebih lanjut tentang proyek 
 
 
 ## our Teams
+
 <div align="center">
   <table style="margin: auto;">
     <tr>
-      <td align="center"><a href="http://www.yanoucrea.fr"><img src="https://avatars.githubusercontent.com/u/82692777?v=4" width="100px;" alt=""/><br /><sub><b>toofff</b></sub></a><br /><a href="https://github.com/dowjones/react-dropdown-tree-select/issues?q=author%3Atoofff" title="Bug reports">🐛</a> <a href="https://github.com/dowjones/react-dropdown-tree-select/commits?author=toofff" title="Code">💻</a> <a href="https://github.com/dowjones/react-dropdown-tree-select/commits?author=toofff" title="Documentation">📖</a> <a href="#ideas-toofff" title="Ideas, Planning, & Feedback">🤔</a></td>
+      <td align="center"><img src="https://avatars.githubusercontent.com/u/82692777?v=4" width="100px;" alt=""/><br /><sub><b>RizkyYanuarK</b</sub></td>
       <td align="center"><a href="http://www.les-tilleuls.coop"><img src="https://avatars3.githubusercontent.com/u/1257968?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Grégory Copin</b></sub></a><br /><a href="https://github.com/dowjones/react-dropdown-tree-select/issues?q=author%3AGregcop1" title="Bug reports">🐛</a> <a href="https://github.com/dowjones/react-dropdown-tree-select/commits?author=Gregcop1" title="Code">💻</a></td>
       <td align="center"><a href="https://github.com/priyanshu92"><img src="https://avatars1.githubusercontent.com/u/7589718?v=4?s=100" width="100px;" alt=""/><br /><sub><b>PRIYANSHU AGRAWAL</b></sub></a><br /><a href="https://github.com/dowjones/react-dropdown-tree-select/issues?q=author%3Apriyanshu92" title="Bug reports">🐛</a> <a href="https://github.com/dowjones/react-dropdown-tree-select/commits?author=priyanshu92" title="Code">💻</a> <a href="#ideas-priyanshu92" title="Ideas, Planning, & Feedback">🤔</a></td>
       <td align="center"><a href="http://james.greenaway.io"><img src="https://avatars3.githubusercontent.com/u/425261?v=4?s=100" width="100px;" alt=""/><br /><sub><b>James Greenaway</b></sub></a><br /><a href="https://github.com/dowjones/react-dropdown-tree-select/issues?q=author%3Ajvgreenaway" title="Bug reports">🐛</a> <a href="https://github.com/dowjones/react-dropdown-tree-select/commits?author=jvgreenaway" title="Co</td>
