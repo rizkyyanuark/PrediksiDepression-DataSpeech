@@ -14,11 +14,11 @@
     <li><a href="#Teknologi-yang-Digunakan">Teknologi yang Digunakan</a>
     </li>
     <li><a href="#Cara-Menggunakan">Cara Menggunakan</a></li>
-    <li><a href="#referernsi">referensi</a></li>
+    <li><a href="#Referensi">referensi</a></li>
     <li><a href="#Kontribusi">Kontribusi</a></li>
     <li><a href="#License">Lisensi</a></li>
     <li><a href="#Kontak">Kontak</a></li>
-    <li><a href="#Our Teams">Teams</a></li>
+    <li><a href="#0ur-Teams">Teams</a></li>
   </ul>
 </details>
 
@@ -76,7 +76,7 @@ Jika Anda tertarik untuk mempelajari lebih lanjut tentang topik ini, berikut ada
 
 Kontribusi, masalah, dan permintaan fitur baru selalu diterima. Untuk perubahan besar, harap buka issue terlebih dahulu untuk membahas apa yang ingin Anda ubah.
 
-## License {#license}
+## License
 
 MIT
 
