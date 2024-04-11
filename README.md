@@ -1,9 +1,9 @@
 <div align="center">
   <h1>Prediksi Depresi dari Data Speech</h1>
   <blockquote>
-    Proyek ini memanfaatkan metode Mel Frequency Cepstral Coefficients (MFCC) untuk mengekstrak fitur, dan menggunakan Convolutional Neural Networks (CNN) untuk proses pembelajaran dan prediksi mesin.
+    Project ini memanfaatkan metode Mel Frequency Cepstral Coefficients (MFCC) untuk mengekstrak fitur, dan menggunakan Convolutional Neural Networks (CNN) untuk proses pembelajaran dan prediksi mesin.
     <br>
-    Tujuan utama proyek ini adalah untuk mengembangkan model yang akurat dan efisien yang dapat digunakan dalam aplikasi kesehatan mental untuk mendeteksi dan mencegah depresi pada tahap awal.
+    Tujuan utama project ini adalah untuk mengembangkan model yang akurat dan efisien yang dapat digunakan dalam aplikasi kesehatan mental untuk mendeteksi dan mencegah depresi pada tahap awal.
   </blockquote>
 </div>
 
@@ -11,83 +11,16 @@
   <summary>🏁 Table of Contents</summary>
   <ul>
     <li><a href="#Dataset">Dataset</a></li>
-    <li><a href="#Fitur-Utama">Fitur Utama</a>
-      <ul>
-        <li><a href="#vanilla-no-framework">Vanilla, no framework</a></li>
-        <li><a href="#with-bootstrap">With Bootstrap</a></li>
-        <li><a href="#with-material-design">With Material Design</a></li>
-        <li><a href="#as-single-select">As Single Select</a></li>
-      </ul>
-    </li>
     <li><a href="#Teknologi-yang-Digunakan">Teknologi yang Digunakan</a>
-      <ul>
-        <li><a href="#as-npm-package">As NPM package</a></li>
-        <li><a href="#using-a-cdn">Using a CDN</a></li>
-        <li><a href="#peer-dependencies">Peer Dependencies</a></li>
-      </ul>
     </li>
-    <li><a href="#usage">Usage</a></li>
-    <li><a href="#props">Props</a>
-      <ul>
-        <li><a href="#classname">className</a></li>
-        <li><a href="#clearsearchonchange">clearSearchOnChange</a></li>
-        <li><a href="#onchange">onChange</a></li>
-        <li><a href="#onnodetoggle">onNodeToggle</a></li>
-        <li><a href="#onaction">onAction</a></li>
-        <li><a href="#onfocus">onFocus</a></li>
-        <li><a href="#onblur">onBlur</a></li>
-        <li><a href="#data">data</a></li>
-        <li><a href="#texts">texts</a></li>
-        <li><a href="#keeptreeonsearch">keepTreeOnSearch</a></li>
-        <li><a href="#keepchildrenonsearch">keepChildrenOnSearch</a></li>
-        <li><a href="#keepopenonselect">keepOpenOnSelect</a></li>
-        <li><a href="#mode">mode</a>
-          <ul>
-            <li><a href="#multiselect">multiSelect</a></li>
-            <li><a href="#hierarchical">hierarchical</a></li>
-            <li><a href="#simpleselect">simpleSelect</a></li>
-            <li><a href="#radioselect">radioSelect</a></li>
-          </ul>
-        </li>
-        <li><a href="#showpartiallyselected">showPartiallySelected</a></li>
-        <li><a href="#showdropdown">showDropdown</a>
-          <ul>
-            <li><a href="#initial">initial</a></li>
-            <li><a href="#always">always</a></li>
-          </ul>
-        </li>
-        <li><a href="#form-states-disabled-readonly">form states (disabled|readOnly)</a></li>
-        <li><a href="#id">id</a></li>
-        <li><a href="#searchpredicate">searchPredicate</a></li>
-        <li><a href="#inlinesearchinput">inlineSearchInput</a></li>
-        <li><a href="#tabIndex">tabIndex</a></li>
-        <li><a href="#disablePoppingOnBackspace">disablePoppingOnBackspace</a></li>
-      </ul>
-    </li>
-    <li><a href="#styling-and-customization">Styling and Customization</a>
-      <ul>
-        <li><a href="#default-styles">Using default styles</a></li>
-        <li><a href="#customizing-styles">Customizing with Bootstrap, Material Design styles</a></li>
-      </ul>
-    </li>
-    <li><a href="#keyboard-navigation">Keyboard navigation</a></li>
-    <li><a href="#performance">Performance</a>
-      <ul>
-        <li><a href="#search-optimizations">Search optimizations</a></li>
-        <li><a href="#search-debouncing">Search debouncing</a></li>
-        <li><a href="#virtualized-rendering">Virtualized rendering</a></li>
-        <li><a href="#reducing-costly-dom-manipulations">Reducing costly DOM manipulations</a></li>
-      </ul>
-    </li>
-    <li><a href="#faq">FAQ</a></li>
-    <li><a href="/docs/HOC.md">Doing more with HOCs</a></li>
-    <li><a href="#development">Development</a></li>
-    <li><a href="#license">License</a></li>
-    <li><a href="#contributors">Contributors</a></li>
+    <li><a href="# Cara Menggunakan">Cara Menggunakan</a></li>
+    <li><a href="#referernsi">referensi</a></li>
+    <li><a href="#Kontribusi">Kontribusi</a></li>
+    <li><a href="#License">Lisensi</a></li>
+    <li><a href="#Kontak">Kontak</a></li>
+    <li><a href="#Our Teams">Teams</a></li>
   </ul>
 </details>
-
-
 
 ## Dataset
 Proyek ini menggunakan dataset dari [RAVDESS](https://www.kaggle.com/datasets/uwrfkaggler/ravdess-emotional-speech-audio), yang merupakan sumber daya yang sangat berharga untuk penelitian dalam bidang pengenalan emosi melalui suara.
@@ -124,6 +57,7 @@ Tujuan dari pengelompokan ini adalah untuk memudahkan analisis dan pemahaman ten
 - Numpy
 - Matplotlib
 - Seaborn
+- Keras
 
 ## Cara Menggunakan
 
