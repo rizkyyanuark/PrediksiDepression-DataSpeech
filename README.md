@@ -1,73 +1,120 @@
-## Table of Contents
+<div align="center">
+  <h1>Prediksi Depresi dari Data Speech</h1>
+  <blockquote>
+    Proyek ini memanfaatkan metode Mel Frequency Cepstral Coefficients (MFCC) untuk mengekstrak fitur, dan menggunakan Convolutional Neural Networks (CNN) untuk proses pembelajaran dan prediksi mesin.
+    <br>
+    Tujuan utama proyek ini adalah untuk mengembangkan model yang akurat dan efisien yang dapat digunakan dalam aplikasi kesehatan mental untuk mendeteksi dan mencegah depresi pada tahap awal.
+  </blockquote>
+</div>
 
 <details>
   <summary>🏁 Table of Contents</summary>
-
-  - [Deskripsi](#Deskripsi)
-  - [Fitur Utama](#Fitur-Utama)
-    - [Vanilla, no framework](#vanilla-no-framework)
-    - [With Bootstrap](#with-bootstrap)
-    - [With Material Design](#with-material-design)
-    - [As Single Select](#as-single-select)
-  - [test](#Teknologi-yang-Digunakan)
-    - [As NPM package](#as-npm-package)
-    - [Using a CDN](#using-a-cdn)
-    - [Peer Dependencies](#peer-dependencies)
-  - [Usage](#usage)
-  - [Props](#props)
-    - [className](#classname)
-    - [clearSearchOnChange](#clearsearchonchange)
-    - [onChange](#onchange)
-    - [onNodeToggle](#onnodetoggle)
-    - [onAction](#onaction)
-    - [onFocus](#onfocus)
-    - [onBlur](#onblur)
-    - [data](#data)
-    - [texts](#texts)
-    - [keepTreeOnSearch](#keeptreeonsearch)
-    - [keepChildrenOnSearch](#keepchildrenonsearch)
-    - [keepOpenOnSelect](#keepopenonselect)
-    - [mode](#mode)
-      - [multiSelect](#multiselect)
-      - [hierarchical](#hierarchical)
-      - [simpleSelect](#simpleselect)
-      - [radioSelect](#radioselect)
-    - [showPartiallySelected](#showpartiallyselected)
-    - [showDropdown](#showdropdown)
-      - [initial](#initial)
-      - [always](#always)
-    - [form states (disabled|readOnly)](#form-states-disabled-readonly)
-    - [id](#id)
-    - [searchPredicate](#searchpredicate)
-    - [inlineSearchInput](#inlinesearchinput)
-    - [tabIndex](#tabIndex)
-    - [disablePoppingOnBackspace](#disablePoppingOnBackspace)
-  - [Styling and Customization](#styling-and-customization)
-    - [Using default styles](#default-styles)
-    - [Customizing with Bootstrap, Material Design styles](#customizing-styles)
-  - [Keyboard navigation](#keyboard-navigation)
-  - [Performance](#performance)
-    - [Search optimizations](#search-optimizations)
-    - [Search debouncing](#search-debouncing)
-    - [Virtualized rendering](#virtualized-rendering)
-    - [Reducing costly DOM manipulations](#reducing-costly-dom-manipulations)
-  - [FAQ](#faq)
-  - [Doing more with HOCs](/docs/HOC.md)
-  - [Development](#development)
-  - [License](#license)
-  - [Contributors](#contributors)
+  <ul>
+    <li><a href="#Dataset">Dataset</a></li>
+    <li><a href="#Fitur-Utama">Fitur Utama</a>
+      <ul>
+        <li><a href="#vanilla-no-framework">Vanilla, no framework</a></li>
+        <li><a href="#with-bootstrap">With Bootstrap</a></li>
+        <li><a href="#with-material-design">With Material Design</a></li>
+        <li><a href="#as-single-select">As Single Select</a></li>
+      </ul>
+    </li>
+    <li><a href="#Teknologi-yang-Digunakan">Teknologi yang Digunakan</a>
+      <ul>
+        <li><a href="#as-npm-package">As NPM package</a></li>
+        <li><a href="#using-a-cdn">Using a CDN</a></li>
+        <li><a href="#peer-dependencies">Peer Dependencies</a></li>
+      </ul>
+    </li>
+    <li><a href="#usage">Usage</a></li>
+    <li><a href="#props">Props</a>
+      <ul>
+        <li><a href="#classname">className</a></li>
+        <li><a href="#clearsearchonchange">clearSearchOnChange</a></li>
+        <li><a href="#onchange">onChange</a></li>
+        <li><a href="#onnodetoggle">onNodeToggle</a></li>
+        <li><a href="#onaction">onAction</a></li>
+        <li><a href="#onfocus">onFocus</a></li>
+        <li><a href="#onblur">onBlur</a></li>
+        <li><a href="#data">data</a></li>
+        <li><a href="#texts">texts</a></li>
+        <li><a href="#keeptreeonsearch">keepTreeOnSearch</a></li>
+        <li><a href="#keepchildrenonsearch">keepChildrenOnSearch</a></li>
+        <li><a href="#keepopenonselect">keepOpenOnSelect</a></li>
+        <li><a href="#mode">mode</a>
+          <ul>
+            <li><a href="#multiselect">multiSelect</a></li>
+            <li><a href="#hierarchical">hierarchical</a></li>
+            <li><a href="#simpleselect">simpleSelect</a></li>
+            <li><a href="#radioselect">radioSelect</a></li>
+          </ul>
+        </li>
+        <li><a href="#showpartiallyselected">showPartiallySelected</a></li>
+        <li><a href="#showdropdown">showDropdown</a>
+          <ul>
+            <li><a href="#initial">initial</a></li>
+            <li><a href="#always">always</a></li>
+          </ul>
+        </li>
+        <li><a href="#form-states-disabled-readonly">form states (disabled|readOnly)</a></li>
+        <li><a href="#id">id</a></li>
+        <li><a href="#searchpredicate">searchPredicate</a></li>
+        <li><a href="#inlinesearchinput">inlineSearchInput</a></li>
+        <li><a href="#tabIndex">tabIndex</a></li>
+        <li><a href="#disablePoppingOnBackspace">disablePoppingOnBackspace</a></li>
+      </ul>
+    </li>
+    <li><a href="#styling-and-customization">Styling and Customization</a>
+      <ul>
+        <li><a href="#default-styles">Using default styles</a></li>
+        <li><a href="#customizing-styles">Customizing with Bootstrap, Material Design styles</a></li>
+      </ul>
+    </li>
+    <li><a href="#keyboard-navigation">Keyboard navigation</a></li>
+    <li><a href="#performance">Performance</a>
+      <ul>
+        <li><a href="#search-optimizations">Search optimizations</a></li>
+        <li><a href="#search-debouncing">Search debouncing</a></li>
+        <li><a href="#virtualized-rendering">Virtualized rendering</a></li>
+        <li><a href="#reducing-costly-dom-manipulations">Reducing costly DOM manipulations</a></li>
+      </ul>
+    </li>
+    <li><a href="#faq">FAQ</a></li>
+    <li><a href="/docs/HOC.md">Doing more with HOCs</a></li>
+    <li><a href="#development">Development</a></li>
+    <li><a href="#license">License</a></li>
+    <li><a href="#contributors">Contributors</a></li>
+  </ul>
 </details>
 
-## Deskripsi
-> Proyek “Prediksi Depresi dari Data Speech” adalah sebuah inisiatif penelitian yang bertujuan untuk mendeteksi tanda-tanda awal depresi melalui analisis suara. Proyek ini menggunakan teknik Mel Frequency Cepstral Coefficients (MFCC) untuk ekstraksi fitur dari data suara, dan Convolutional Neural Networks (CNN) untuk pembelajaran mesin dan prediksi.
-> 
-> Tujuan utama proyek ini adalah untuk mengembangkan model yang akurat dan efisien yang dapat digunakan dalam aplikasi kesehatan mental untuk mendeteksi dan mencegah depresi pada tahap awal.
 
-## Fitur Utama
 
-- **Analisis Eksploratif Data (EDA)**: Melakukan analisis mendalam pada data untuk memahami pola dan hubungan antar variabel.
-- **Pemodelan Machine Learning**: Membangun dan menguji beberapa model Machine Learning untuk memprediksi depresi.
-- **Evaluasi Model**: Menggunakan metrik evaluasi yang tepat untuk membandingkan kinerja model.
+## Dataset
+Proyek ini menggunakan dataset dari [RAVDESS](https://www.kaggle.com/datasets/uwrfkaggler/ravdess-emotional-speech-audio), yang merupakan sumber daya yang sangat berharga untuk penelitian dalam bidang pengenalan emosi melalui suara.
+
+Berikut adalah penjelasan singkat tentang identifikasi nama file dalam dataset RAVDESS:
+
+* Modality (01 = full-AV, 02 = video-only, 03 = audio-only).
+* Vocal channel (01 = speech, 02 = song).
+* Emotion (01 = neutral, 02 = calm, 03 = happy, 04 = sad, 05 = angry, 06 = fearful, 07 = disgust, 08 = surprised).
+* Emotional intensity (01 = normal, 02 = strong). NOTE: There is no strong intensity for the 'neutral' emotion.
+* Statement (01 = "Kids are talking by the door", 02 = "Dogs are sitting by the door").
+* Repetition (01 = 1st repetition, 02 = 2nd repetition).
+* Actor (01 to 24. Odd numbered actors are male, even numbered actors are female).
+
+Sebagai contoh, nama file audio `02-01-06-01-02-01-12.mp4` memiliki meta data sebagai berikut:
+
+* Video-only (02)
+* Speech (01)
+* Fearful (06)
+* Normal intensity (01)
+* Statement "dogs" (02)
+* 1st Repetition (01)
+* 12th Actor (12) - Female (as the actor ID number is even)
+
+Dalam proyek ini, kami melakukan pengelompokan emosi menjadi dua kelas utama: **Depresi** dan **Non-Depresi**. Emosi seperti neutral, calm, surprised, dan happy akan dikategorikan ke dalam kelas **Non-Depresi**. Sementara itu, emosi seperti sad, angry, fearful, dan disgust akan dikategorikan ke dalam kelas **Depresi**.
+
+Tujuan dari pengelompokan ini adalah untuk memudahkan analisis dan pemahaman tentang bagaimana emosi dapat dikelompokkan berdasarkan karakteristik mereka. Dengan demikian, ini akan membantu dalam penelitian lebih lanjut tentang pengenalan depresi berbasis dataset emosi
 
 ## Teknologi yang Digunakan
 
