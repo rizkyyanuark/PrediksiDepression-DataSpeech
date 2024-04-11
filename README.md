@@ -18,7 +18,7 @@
     <li><a href="#Kontribusi">Kontribusi</a></li>
     <li><a href="#License">Lisensi</a></li>
     <li><a href="#Kontak">Kontak</a></li>
-    <li><a href="#0ur-Teams">Teams</a></li>
+    <li><a href="#Teams">Teams</a></li>
   </ul>
 </details>
 
@@ -85,7 +85,7 @@ MIT
 Jika Anda memiliki pertanyaan atau ingin berdiskusi lebih lanjut tentang proyek ini, jangan ragu untuk menghubungi saya.
 
 
-## our Teams
+## Teams
 
 <div align="center">
   <table style="margin: auto;">
