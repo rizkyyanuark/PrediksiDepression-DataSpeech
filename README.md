@@ -13,7 +13,7 @@
     <li><a href="#Dataset">Dataset</a></li>
     <li><a href="#Teknologi-yang-Digunakan">Teknologi yang Digunakan</a>
     </li>
-    <li><a href="# Cara Menggunakan">Cara Menggunakan</a></li>
+    <li><a href="#Cara-Menggunakan">Cara Menggunakan</a></li>
     <li><a href="#referernsi">referensi</a></li>
     <li><a href="#Kontribusi">Kontribusi</a></li>
     <li><a href="#License">Lisensi</a></li>
