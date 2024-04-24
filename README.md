@@ -45,7 +45,7 @@ Sebagai contoh, nama file audio `02-01-06-01-02-01-12.mp4` memiliki meta data se
 * 1st Repetition (01)
 * 12th Actor (12) - Female (as the actor ID number is even)
 
-Dalam proyek ini, kami melakukan pengelompokan emosi menjadi dua kelas utama: **Depresi** dan **Non-Depresi**. Emosi seperti neutral, calm, surprised, dan happy akan dikategorikan ke dalam kelas **Non-Depresi**. Sementara itu, emosi seperti sad, angry, fearful, dan disgust akan dikategorikan ke dalam kelas **Depresi**.
+Dalam proyek ini, kami melakukan pengelompokan emosi menjadi dua kelas utama: `Depresi` dan `Non-Depresi`. Emosi seperti neutral, calm, surprised, dan happy akan dikategorikan ke dalam kelas `Non-Depresi`. Sementara itu, emosi seperti sad, angry, fearful, dan disgust akan dikategorikan ke dalam kelas `Depresi`.
 
 Tujuan dari pengelompokan ini adalah untuk memudahkan analisis dan pemahaman tentang bagaimana emosi dapat dikelompokkan berdasarkan karakteristik mereka. Dengan demikian, ini akan membantu dalam penelitian lebih lanjut tentang pengenalan depresi berbasis dataset emosi
 
@@ -80,7 +80,7 @@ Kontribusi, masalah, dan permintaan fitur baru selalu diterima. Untuk perubahan 
 
 MIT
 
-## Kontak
+## File
 
 Jika Anda memiliki pertanyaan atau ingin berdiskusi lebih lanjut tentang proyek ini, jangan ragu untuk menghubungi saya.
 
