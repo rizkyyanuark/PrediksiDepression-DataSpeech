@@ -105,8 +105,12 @@ MIT
   <br />
   <sub>Fadhilah Nuria Shinta</sub>
 </td>
-      <td align="center"><a href="https://github.com/priyanshu92"><img src="https://avatars1.githubusercontent.com/u/7589718?v=4?s=100" width="100px;" alt=""/><br /><sub><b>PRIYANSHU AGRAWAL</b></sub></a><br /><a href="https://github.com/dowjones/react-dropdown-tree-select/issues?q=author%3Apriyanshu92" title="Bug reports">🐛</a> <a href="https://github.com/dowjones/react-dropdown-tree-select/commits?author=priyanshu92" title="Code">💻</a> <a href="#ideas-priyanshu92" title="Ideas, Planning, & Feedback">🤔</a></td>
-      <td align="center"><a href="http://james.greenaway.io"><img src="https://avatars3.githubusercontent.com/u/425261?v=4?s=100" width="100px;" alt=""/><br /><sub><b>James Greenaway</b></sub></a><br /><a href="https://github.com/dowjones/react-dropdown-tree-select/issues?q=author%3Ajvgreenaway" title="Bug reports">🐛</a> <a href="https://github.com/dowjones/react-dropdown-tree-select/commits?author=jvgreenaway" title="Co</td>
-    </tr>
+<td align="center">
+  <a href="[https://github.com/fadhilahnuria](https://github.com/prenji37)">
+    <img src="https://avatars.githubusercontent.com/u/171494212?v=4" width="100px;" alt="Rivadian Ardiansyah"/>
+  </a>
+  <br />
+  <sub>Rivadian Ardiansyah</sub>
+</td>
   </table>
 </div>
