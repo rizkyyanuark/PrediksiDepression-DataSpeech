@@ -82,7 +82,7 @@ MIT
 
 ## File
 
-- Proposal :
+- Proposal : https://github.com/rizkyyanuark/PrediksiDepression-DataSpeech/blob/main/Proposal%20Prediciton%20of%20Depression%20from%20Data%20Speech.pdf
 - HKI : 
 
 
