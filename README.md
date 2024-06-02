@@ -83,7 +83,7 @@ MIT
 ## File
 
 - Proposal : https://github.com/rizkyyanuark/PrediksiDepression-DataSpeech/blob/main/Proposal%20Prediciton%20of%20Depression%20from%20Data%20Speech.pdf
-- HKI : 
+- HKI : https://github.com/rizkyyanuark/PrediksiDepression-DataSpeech/blob/main/Surat%20HKI%20Prediction%20of%20Depression%20from%20Data%20Speech.pdf
 
 
 ## Teams
@@ -99,8 +99,8 @@ MIT
   <sub>RizkyYanuarK</sub>
 </td>
 <td align="center">
-  <a href="https://github.com/Dianayuww">
-    <img src="https://avatars.githubusercontent.com/u/167867871?v=4" width="100px;" alt="Dian Ayu Fauziah"/>
+  <a href="https://github.com/fadhilahnuria">
+    <img src="https://avatars.githubusercontent.com/u/114966285?v=4" width="100px;" alt="Fadhilah Nuria Shinta"/>
   </a>
   <br />
   <sub>Dian Ayu Fauziah</sub>
