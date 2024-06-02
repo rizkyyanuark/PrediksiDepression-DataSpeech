@@ -17,7 +17,7 @@
     <li><a href="#Referensi">referensi</a></li>
     <li><a href="#Kontribusi">Kontribusi</a></li>
     <li><a href="#License">Lisensi</a></li>
-    <li><a href="#Kontak">Kontak</a></li>
+    <li><a href="#File">File</a></li>
     <li><a href="#Teams">Teams</a></li>
   </ul>
 </details>
@@ -82,7 +82,8 @@ MIT
 
 ## File
 
-Jika Anda memiliki pertanyaan atau ingin berdiskusi lebih lanjut tentang proyek ini, jangan ragu untuk menghubungi saya.
+- Proposal :
+- HKI : 
 
 
 ## Teams
