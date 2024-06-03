@@ -83,7 +83,7 @@ MIT
 ## File
 
 - Proposal : https://github.com/rizkyyanuark/PrediksiDepression-DataSpeech/blob/main/Proposal%20Prediciton%20of%20Depression%20from%20Data%20Speech.pdf
-- HKI : https://github.com/rizkyyanuark/PrediksiDepression-DataSpeech/blob/main/Surat%20HKI%20Prediction%20of%20Depression%20from%20Data%20Speech.pdf
+- HKI : EC002023123353, 4 Desember 2023
 
 
 ## Teams
