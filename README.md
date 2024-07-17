@@ -27,23 +27,23 @@ Proyek ini menggunakan dataset dari [RAVDESS](https://www.kaggle.com/datasets/uw
 
 Berikut adalah penjelasan singkat tentang identifikasi nama file dalam dataset RAVDESS:
 
-* Modality (01 = full-AV, 02 = video-only, 03 = audio-only).
-* Vocal channel (01 = speech, 02 = song).
-* Emotion (01 = neutral, 02 = calm, 03 = happy, 04 = sad, 05 = angry, 06 = fearful, 07 = disgust, 08 = surprised).
-* Emotional intensity (01 = normal, 02 = strong). NOTE: There is no strong intensity for the 'neutral' emotion.
-* Statement (01 = "Kids are talking by the door", 02 = "Dogs are sitting by the door").
-* Repetition (01 = 1st repetition, 02 = 2nd repetition).
-* Actor (01 to 24. Odd numbered actors are male, even numbered actors are female).
+* Modalitas (01 = AV lengkap, 02 = hanya video, 03 = hanya audio).
+* Jenis vokal (01 = ucapan, 02 = lagu).
+* Emosi (01 = neutral, 02 = calm, 03 = happy, 04 = sad, 05 = angry, 06 = fearful, 07 = disgust, 08 = surprised).
+* Intensitas emosi (01 = normal, 02 = kuat). CATATAN: Tidak ada intensitas kuat untuk emosi ‘netral’.
+* Pernyataan (01 = “Kids are talking by the door”, 02 = “Dogs are sitting by the door”).
+* Pengulangan (01 = pengulangan pertama, 02 = pengulangan kedua).
+* Aktor (01 hingga 24. Aktor dengan nomor ganjil adalah pria, aktor dengan nomor genap adalah wanita).
 
 Sebagai contoh, nama file audio `02-01-06-01-02-01-12.mp4` memiliki meta data sebagai berikut:
 
-* Video-only (02)
+* Hanya Video (02)
 * Speech (01)
 * Fearful (06)
-* Normal intensity (01)
+* Intensitas Normal (01)
 * Statement "dogs" (02)
-* 1st Repetition (01)
-* 12th Actor (12) - Female (as the actor ID number is even)
+* 1st Pengulangan (01)
+* 12th Aktor (12) - Female (as the actor ID number is even)
 
 Dalam proyek ini, kami melakukan pengelompokan emosi menjadi dua kelas utama: `Depresi` dan `Non-Depresi`. Emosi seperti neutral, calm, surprised, dan happy akan dikategorikan ke dalam kelas `Non-Depresi`. Sementara itu, emosi seperti sad, angry, fearful, dan disgust akan dikategorikan ke dalam kelas `Depresi`.
 
